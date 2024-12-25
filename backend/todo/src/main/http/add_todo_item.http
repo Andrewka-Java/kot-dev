@@ -1,0 +1,7 @@
+POST http://localhost:8091/api/items
+Content-Type: application/json
+
+{
+  "todoItemName": "Buy Butter",
+  "priority": 5
+}

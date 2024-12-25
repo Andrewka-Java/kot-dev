@@ -1,0 +1,37 @@
+.app {
+    position: relative;
+
+    footer {
+        position: fixed;
+        left: 50vw;
+        transform: translateX(-50%);
+        bottom: 20px;
+        text-align: center;
+    }
+    
+    .overlap {
+        position: static;
+        transform: translateX(0%);
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+#burger {
+    position: fixed;
+    top: 35px;
+    right: 35px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(white, 0.6);
+    transition: all .4s;
+}

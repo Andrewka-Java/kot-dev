@@ -1,0 +1,8 @@
+PUT http://localhost:8090/api/items/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "todoItemName": "Buy traaa",
+  "priority": 3
+}
